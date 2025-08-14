@@ -1,0 +1,119 @@
+@media only screen and (max-width:1033px){
+    #feature{
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+    }
+    .section-p{
+        padding: 10px 20px;
+    }
+}
+@media only screen and (max-width:778px){
+    .hero-text h4{
+        font-size: 30px;
+    }
+    .hero-text h3{
+        font-size: 25px;
+    }
+    .big-btn{
+        padding: 0px;
+    }
+    #product-1{
+        justify-content: space-evenly;
+    }
+    .ham{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .nav-list{
+        display: none;
+    }
+     .container{
+    background-position: top 5% left 40%;
+   }
+   .install-logo{
+    width: 100px;
+    }
+    #searchfilter{
+      flex-direction: column;
+      height: 120px;
+      /* margin-left: 50px; */
+      padding: 10px 20px;
+      /* width: 100vw; */
+    }
+    #querySelect{
+        width:30%;
+    }
+    .div1, .div2{
+        width: 100%;
+        margin: 5px 0;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #box{
+        margin-top: 190px;
+    }
+    #box2{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .loginsignupcard{
+        left: 50px;
+    }
+}
+@media only screen and (max-width:500px){
+   #header{
+    width:100%;
+    
+   }
+   .container{
+    background-position: top 5% left 80%;
+   }
+   .footer-data{
+    flex-direction: column;
+   }
+   .footer-data .footer-items{
+    width: 100%;
+   }
+   #searchfilter{
+    height:200px;
+    font-size: 20px;
+   }
+   #querySelect{
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+   }
+    #searchfilter input{
+        width: 100%;
+        height: 30px;
+        margin: 5px;
+    }
+    #searchfilter button{
+        width: 100%;
+        height: 30px;
+        margin: 5px;
+        padding-top: 5px;
+    }
+    #box{
+        margin-top: 240px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+   #box2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .logindiv{
+        left: 20px;
+        width: 300px;
+        height: 330px;
+    }
+    .signupdiv{
+        width: 280px;
+        left: 10px;
+    }
+    .loginsignupcard{
+        left: 10px;
+    }
+}
