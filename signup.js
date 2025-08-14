@@ -47,7 +47,7 @@ const gotosignin = () => {
     window.location.href = "/login.html";
 }
 const gotohome=()=>{
-  window.location.href="/home.html";
+  window.location.href="/index.html";
 }
 
 const ham = document.getElementsByClassName("ham")[0];

@@ -10,7 +10,7 @@ const gotosignup=()=>{
     window.location.href = "/signup.html"
 }
 const gotohome=()=>{
-  window.location.href="/home.html";
+  window.location.href="/index.html";
 }
 
 const form2 = document.getElementById('form2');

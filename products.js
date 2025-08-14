@@ -122,7 +122,7 @@ const handleSearch =()=>{
     
 }
 const gotohome=()=>{
-  window.location.href="/home.html";
+  window.location.href="/index.html";
 }
 
 const btn1 = document.getElementsByClassName("btn1")[0];
